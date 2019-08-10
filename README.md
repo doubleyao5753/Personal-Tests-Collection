@@ -47,17 +47,16 @@ sayHi()
 - D: `undefined` 和 `ReferenceError`
 
 <details>
-<summary>答案</summary>
-    <p>    </p>
+<summary><strong>答案</strong></summary>
     <strong>选择：D</strong>
-    <p>
-    <strong>笔点：</strong><span>let与var的区别</span> </p>
+    <p><strong>笔点：</strong><span>let与var的区别</span> </p>
     <strong>解析：</strong>
     <p>输出name为<code>undefined</code>：对于用var声明的变量name，在其声明之前使用输出 未定义(undefined)，相当于在打印时先<code>var name</code>后<code>name = 'xiaoqiang'</code></p>
     <p>输出age为<code>ReferenceError</code>：对于用let声明的变量age，在其声明之前使用，输出 引用错误(ReferenceError)，代表当一个不存在的变量被引用时报的错误。在ES6中明确规定变量必须声明后再使用，一切在声明前使用的变量都会报此错误</p>
+</details>
 
 <details>
- <summary>笔记</summary>
+ <summary><strong>笔记</strong></summary>
     <p>
         <strong>var：</strong>有变量提升（内存空间在创建阶段就被设置好了，直到程序运行到定义变量位置之前默认值都是 undefined。）
     </p>
@@ -69,4 +68,8 @@ sayHi()
         2.let,const的变量提升标注了暂时性死区的开始 
         3.你在暂时性死区里使用,就会报错
     </p>
+</details>
 
+---
+
+#### 2. 打印输出什么？
