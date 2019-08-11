@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+
+<script>
+
+// [] == ![] ? alert(true):alert(false)
+
+
+// ·ÖÎö£º
+// 1. È¡·Ç£¡µÄÓÅÏÈ¼¶±È==¸ß, ![] => !true => false
+// 2. µÈºÅ×ó±ßÊÇÒýÓÃÀàÐÍ [] => [].toPrimitive()=''
+// 3. '' == false   =>   Number('') == Number(false)
+// 4. 0 == 0 => true
+
+if(NaN == Number('as')) {
+console.log(true)
+
+}else {
+	console.log(false)
+}
+
+
+
+
+</script>
+</body>
+</html>
