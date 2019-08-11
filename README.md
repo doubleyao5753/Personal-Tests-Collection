@@ -86,6 +86,7 @@ sayHi()
 <p>2. 等号左边是引用类型 [] => [].toPrimitive()=''   </p>
 <p>3. '' == false   =>   Number('') == Number(false)   </p>
 <p>4. 0 == 0 => true   </p>
+    </details>
 
 <details>
  <summary><strong>笔记</strong></summary>
