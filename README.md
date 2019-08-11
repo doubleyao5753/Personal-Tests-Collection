@@ -90,8 +90,6 @@ sayHi()
 
 <details>
  <summary><strong>笔记</strong></summary>
-    <p>
-        <strong>取经：</strong> <a src='https://segmentfault.com/a/1190000008594792'>==  如何工作的？</a>and <a img='https://github.com/jawil/blog/issues/1'>各种蛋疼的类型转换</a>
     </p>
     <p>
         <strong>简单来说：</strong>
@@ -101,6 +99,8 @@ sayHi()
         <strong>注意事项：</strong> 时刻牢记，只有`null undefined 空字符串 NaN 0 `会被转换为false，其他的都将转为true；null与undefined不严格相等；NaN与谁都不想等包括自身；null转数字为0，而undefined转数字为NaN
     </p>
 </details>
+
+**取经：**  [>==  如何工作的？](https://segmentfault.com/a/1190000008594792)&&&[>各种蛋疼的类型转换](https://github.com/jawil/blog/issues/1)
 
 ---
 
